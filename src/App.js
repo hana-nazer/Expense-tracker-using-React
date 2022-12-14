@@ -9,7 +9,7 @@ const DummyData = [
     id: "e1",
     title: "car insurance",
     amount: 45.98,
-    date: new Date(2022, 5, 28),
+    date: new Date(2021, 5, 28),
   },
   {
     id: "e2",
@@ -21,7 +21,13 @@ const DummyData = [
     id: "e3",
     title: "bike insurance",
     amount: 46.98,
-    date: new Date(2022, 4, 2),
+    date: new Date(2019, 4, 2),
+  },
+  {
+    id: "e4",
+    title: "health insurance",
+    amount: 49.98,
+    date: new Date(2022, 11, 2),
   },
 ];
 const App = () => {
