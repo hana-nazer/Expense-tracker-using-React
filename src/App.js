@@ -1,6 +1,9 @@
 import './App.css';
 import Expenses from './components/Expenses/Expenses';
+<<<<<<< HEAD
 import NewExpense from './components/NewExpense/NewExpense';
+=======
+>>>>>>> b2be25d4c78940b89b975977ba4d675b6812da05
 
 const App =()=>{
   const expense = [{
@@ -20,6 +23,7 @@ const App =()=>{
     amount:46.98,
     date: new Date(2022,4,2)
   }]
+<<<<<<< HEAD
 
   const expenseDataHandler = (expense) =>{
      console.log(expense);
@@ -27,6 +31,10 @@ const App =()=>{
   return (
     <div className="App">
       <NewExpense onAddExpenseData={expenseDataHandler}/>
+=======
+  return (
+    <div className="App">
+>>>>>>> b2be25d4c78940b89b975977ba4d675b6812da05
   <Expenses items={expense}></Expenses>
     </div>
   );
